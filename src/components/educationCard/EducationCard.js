@@ -8,7 +8,11 @@ export default function EducationCard({ school }) {
 
   const GetDescBullets = ({ descBullets }) => {
     return descBullets
-      ? descBullets.map((item,i) => <li key={i} className="subTitle">{item}</li>)
+      ? descBullets.map((item, i) => (
+          <li key={i} className="subTitle">
+            {item}
+          </li>
+        ))
       : null;
   };
   const { isDark } = useContext(StyleContext);
@@ -26,7 +30,7 @@ export default function EducationCard({ school }) {
             />
           </div>
           <div className="education-card-right">
-            <h5 className="education-text-school">{school.schoolName}</h5>
+            <h6 className="education-text-school">{school.schoolName}</h6>
 
             <div className="education-text-details">
               <h5
@@ -45,7 +49,6 @@ export default function EducationCard({ school }) {
               >
                 {school.duration}
               </p>
-              <p className="education-text-desc">{school.desc}</p>
               <div className="education-text-bullets">
                 <ul>
                   <GetDescBullets descBullets={school.descBullets} />

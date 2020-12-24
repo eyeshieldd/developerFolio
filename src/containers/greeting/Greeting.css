@@ -38,11 +38,13 @@
   font-size: 70px;
   line-height: 1.1;
   color: black !important;
+  font-family: "Cascadia Code";
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 40px;
+  font-family: "Cascadia Code";
 }
 
 .greeting-image-div > img {

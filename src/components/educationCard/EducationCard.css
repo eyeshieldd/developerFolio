@@ -30,11 +30,12 @@
 
 .education-text-school {
   margin: 0;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  font-family: "Cascadia Code";
 }
 
 .education-roundedimg {
@@ -57,6 +58,7 @@
   margin: 0px;
   padding-top: 0.8rem;
   line-height: normal;
+  font-family: "Cascadia Code";
 }
 
 .education-text-duration {
@@ -64,6 +66,7 @@
   font-size: 19px;
   margin: 0px;
   padding-top: 0.5rem;
+  font-family: "Cascadia Code";
 }
 
 .education-text-desc {
@@ -93,7 +96,7 @@
     font-size: 16px;
   }
   .education-text-school {
-    font-size: 20px;
+    font-size: 15px;
   }
   .education-text-duration {
     font-size: 16px;
