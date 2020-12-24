@@ -9,11 +9,13 @@
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
+  font-family: "Cascadia Code";
 }
 .card-subtitle {
   color: #666666;
   font-size: 17px;
   line-height: 1.5rem;
+  font-family: "Cascadia Code";
 }
 .certificate-card {
   background-color: rgb(255, 255, 255);

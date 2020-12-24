@@ -33,7 +33,12 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button
+                  text="Contact me"
+                  className="button"
+                  href="#contact"
+                  color
+                />
                 <Button
                   text="See my resume"
                   newTab={true}

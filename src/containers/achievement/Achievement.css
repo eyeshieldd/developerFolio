@@ -1,8 +1,9 @@
 .achievement-heading {
-  font-size: 56px;
+  font-size: 54px;
   font-weight: 400;
   line-height: normal;
   margin: 0px;
+  font-family: "Cascadia Code";
 }
 .achievement-subtitle {
   text-transform: uppercase;
