@@ -7,7 +7,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Eyeshieldd",
-  title: "Bonjour!!, I'm Johan Aji Setiawan",
+  title: "Hello!, I'm Johan",
   subTitle: emoji(
     "I'am Fullstack Developer,  i have knowledge, skills and have experiance in Dumbways Bootcamp for 6 weeks, Backend and Fullstack Developer in softwere house by building Website App Using Express js, React js and Codeigniter "
   ),
@@ -203,7 +203,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/borobudur.jpg"),
-      link: "https://mow.borobudurpedia.id/",
+      link: "http://mow.borobudurpedia.id/",
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -226,13 +226,13 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          // url:
-          //   "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing",
+          url:
+            "https://drive.google.com/file/d/1-F3zvVgy-uKOFT81mACuDae0bGFMf9M2/view?usp=sharing",
         },
       ],
     },
     {
-      title: "Fullstack Certification",
+      title: "FULLSTACK CERTIFICATION",
       // subtitle:
       //   "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/dum.png"),
@@ -240,20 +240,21 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          // url:
-          //   "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en",
+          url:
+            "https://drive.google.com/file/d/1DysT0oDB4wmovgfiM4XN2wCHbbWTWsoP/view?usp=sharing",
         },
       ],
     },
 
     {
-      title: "Cisco CCNA",
+      title: "CISCO CCNA",
       // subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/ccna.jpg"),
       footerLink: [
         {
           name: "Certification",
-          // url: "https://pakistan-olx-1.firebaseapp.com/",
+          url:
+            "https://drive.google.com/file/d/1Fu9oOFB4TRAKeyOIHIc-74GLi9_K2nlk/view?usp=sharing",
         },
       ],
     },
@@ -319,9 +320,9 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  title: emoji("Contact Me"),
+  // subtitle:
+  //   "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+62-8976869093",
   emailAddress: "johanajisetiawan1118@gmail.com",
 };
